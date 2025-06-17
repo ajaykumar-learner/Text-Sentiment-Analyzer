@@ -70,4 +70,4 @@ if st.button("Analyze Sentiment"):
 
             st.markdown(f"*Sentiment:* <span style='color:{color}'>{sentiment}</span>", unsafe_allow_html=True)
             st.write("*VADER Scores:*")
-                st.json(scores)
+            st.json(scores)
